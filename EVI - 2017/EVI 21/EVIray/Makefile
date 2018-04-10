@@ -5,7 +5,7 @@ OBJECTS = main.o sampling.o camera.o plane.o sphere.o \
           spot_light.o sphere_area_light.o scene.o tracer.o \
           path_tracer.o whitted_tracer.o
 DEPENDS = $(OBJECTS:.o=.d)
-CXXFLAGS = -std=c++11 -pedantic -Wall -DGLM_FORCE_RADIANS -DUSE_CPP11_RANDOM -fno-builtin	
+CXXFLAGS = -std=c++11 -pedantic -Wall -DGLM_FORCE_RADIANS -DUSE_CPP11_RANDOM -fno-builtin -pg
 LDLIBS = -lfreeimage -ljson_spirit
 
 .PHONY: all
