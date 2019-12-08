@@ -1,0 +1,7 @@
+* RSP: Rock Scissors Paper
+
+RSP is a Python 3 clone of the classic MacOS software toy from 1996
+[[https://macintoshgarden.org/games/rock-scissors-paper][Rock Scissors Paper]] by shareware publisher Argus IG.
+
+#+ATTR_HTML: :alt Playing rock paper scissors against a robot. :align center
+[[file:rsp2.png]]
